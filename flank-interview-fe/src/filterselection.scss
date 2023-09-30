@@ -1,0 +1,21 @@
+@import 'variables';
+
+.options {
+    display: flex;
+    gap: $small-gap;
+}
+
+.options button {
+    background-color: $input-background-color;
+    border-radius: $border-radius;
+    padding: .85rem 1.5rem;
+    border-width: 1px;
+}
+
+.options button:hover {
+    background-color: $gray-color;
+}
+
+.options .selected-button {
+    background-color: $pill-background-positive;
+}
